@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3447199258588128396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6932649261411476361}
+  m_Layer: 0
+  m_Name: Child
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6932649261411476361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447199258588128396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4093019701258545138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4093019701258544908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4093019701258545138}
+  - component: {fileID: 4437318259876630298}
+  - component: {fileID: 8501714530745989349}
+  m_Layer: 0
+  m_Name: Serialized
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4093019701258545138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093019701258544908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6932649261411476361}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4437318259876630298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093019701258544908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ece275c7ad8a6340bf21d3bee3c3277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luaPath: Assets/Lua/Test/Test.lua
+  interfaceLuaPaths: []
+  vals:
+    ints: 
+    floats: []
+    strings: []
+    vector2: []
+    vector3: []
+    vector4: []
+    rects: []
+    bounds: []
+    colors: []
+    curves:
+    - serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6344263
+        value: 0.69161683
+        inSlope: -0.5161394
+        outSlope: -0.5161394
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11886312
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    bools: 
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    wraps:
+    - type: 9
+      name: b
+      index: 0
+    - type: 11
+      name: color
+      index: 0
+    - type: 11
+      name: str
+      index: 1
+    - type: 11
+      name: v4
+      index: 2
+    - type: 11
+      name: test
+      index: 3
+--- !u!114 &8501714530745989349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093019701258544908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c773cd79732e42c0bddf6c5e3ade41a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialized:
+    list:
+    - name: 
+      type: UnityEngine.Color
+      data: 0.209,0.7641,0.6693,0.8745
+      obj: {fileID: 0}
+    - name: 
+      type: UnityEngine.Vector2
+      data: 
+      obj: {fileID: 0}
+    - name: 
+      type: UnityEngine.Vector4
+      data: 
+      obj: {fileID: 0}
+    - name: 
+      type: UnityEngine.Bounds
+      data: 
+      obj: {fileID: 0}
+    - name: 
+      type: UnityEngine.Rect
+      data: 
+      obj: {fileID: 0}
+    - name: 
+      type: System.Single
+      data: 
+      obj: {fileID: 0}

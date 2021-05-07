@@ -1,0 +1,15 @@
+LogicNodeView {
+  min-width: 150px;
+}
+
+LogicNodeView > #portInputContainer {
+    position: absolute;
+    width: 412px;
+    left: -400px;
+    top: 46px;
+}
+
+#leafContainer {
+    flex-direction: row;
+    justify-content: space-between;
+}

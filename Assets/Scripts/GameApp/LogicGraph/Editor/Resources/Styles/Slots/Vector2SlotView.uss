@@ -1,0 +1,4 @@
+Vector2SlotView {
+    flex-direction: row;
+    max-width: 100px;
+}

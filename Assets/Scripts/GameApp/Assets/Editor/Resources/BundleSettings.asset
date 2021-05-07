@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005a2ff69e28489d91496584560cc55a, type: 3}
+  m_Name: BundleSettings
+  m_EditorClassIdentifier: 
+  context:
+    mode: 0
+    useScenesInBuild: 1
+  preCommands: []
+  postCommands: []
+  groups:
+  - preCommands: []
+    postCommands: []
+    builds:
+    - buildType: 0
+      paths:
+      - type: 0
+        path: Assets/Art/UI/Prefab
+        pattern: t:GameObject
+      - type: 0
+        path: Assets/Art/UI/Icon
+        pattern: t:Texture
+      - type: 0
+        path: Assets/Art/UI/SpriteAtlas
+        pattern: t:SpriteAtlas
+      - type: 0
+        path: Assets/Art/Font
+        pattern: t:Font t:TMP_FontAsset
+      - type: 0
+        path: Assets/Art/Animation
+        pattern: t:AnimationClip
+    - buildType: 1
+      paths:
+      - type: 1
+        path: Assets/Art/UI/Atlas
+        pattern: t:Sprite
+      - type: 0
+        path: Assets/Lua
+        pattern: t:TextAsset
+    - buildType: 2
+      paths:
+      - type: 0
+        path: Assets/Art/Editor/Resources/TMP Settings.asset
+        pattern: 

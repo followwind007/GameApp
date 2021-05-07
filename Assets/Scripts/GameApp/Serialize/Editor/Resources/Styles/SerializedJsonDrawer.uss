@@ -1,0 +1,29 @@
+.SerializedJsonObjectDrawer {
+    flex-direction: row;
+}
+
+#name {
+    min-width: 100px;
+    align-self: flex-start;
+}
+
+#type {
+    -unity-text-align: middle-left;
+    color: rgba(0,0,0,0.5);
+}
+
+.SerializedJsonDrawer {
+    flex-direction: row;
+}
+
+#unity-text-input {
+    min-width: 50px;
+}
+
+.unity-rect-field__input {
+    flex-direction: row;
+}
+
+.unity-curve-field {
+    min-width: 186px;
+}

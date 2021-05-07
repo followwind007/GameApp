@@ -1,0 +1,3 @@
+.unity-popup-field {
+    min-width: 80px;
+}

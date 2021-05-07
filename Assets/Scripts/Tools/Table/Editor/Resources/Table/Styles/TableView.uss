@@ -1,0 +1,62 @@
+
+TableView {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+TableView > #toolbar {
+    height: 20;
+}
+
+TableView > #toolbar > #bgColorField {
+    width: 40;
+    justify-content: center;
+}
+
+TableView > #toolbar > #scaleSlider {
+    width: 100;
+}
+
+TableView > #toolbar > #scaleSlider > #DragElement {
+    margin-top: 4;
+}
+
+TableView > #toolbar > #searchField {
+    width: 100;
+}
+
+TableView > #content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+TableView > #content > #scrollView {
+    flex-grow: 1;
+    width: 540;
+    background-color: #464547;
+}
+
+TableView > #content > #scrollView > #scrollContent {
+    margin: 5;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+TableView > #content > #detailScrollView {
+    flex-grow: 1;
+    width: 200;
+    background-color: #464547;
+}
+
+TableView > #content > #detailScrollView > #detailContent {
+    margin: 5;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-view {
+    flex-direction: row;
+    flex-grow: 1;
+}

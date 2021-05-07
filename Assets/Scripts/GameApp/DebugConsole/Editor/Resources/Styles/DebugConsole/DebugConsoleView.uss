@@ -1,0 +1,58 @@
+.DebugConsoleView {
+    flex-grow: 1;
+}
+
+.DebugConsoleView > #tabs {
+    margin: 4px 4px 0;
+}
+
+.DebugConsoleView > #content {
+    flex-grow: 1;
+}
+
+.TabView {
+    flex-grow: 1;
+    margin: 4px;
+}
+
+.TabView > #textCommand {
+    height: 100px;
+    -unity-text-align: upper-left;
+}
+
+.TabView > #btns {
+    flex-direction: row;
+    height: 28px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Grow {
+    flex-grow: 1;
+}
+
+.BtnNormal {
+    min-width: 100px;
+}
+
+.BtnSmall {
+    min-width: 50px;
+}
+
+.HorContainer {
+    flex-direction: row;
+}
+
+.HorContainer > #sourceType {
+    width: 100px;
+}
+
+.DebugConsoleTree {
+    flex-grow: 1;
+    margin-bottom: 24px;
+}
+
+.unity-imgui-container {
+    margin-left: 4px;
+    margin-right: 4px;
+}

@@ -1,0 +1,12 @@
+RectSlotView {
+    flex-direction: row;
+    flex-shrink: 1;
+    max-width: 200px;
+}
+.unity-composite-field__field-group{
+    flex-shrink: 1;
+}
+
+.unity-rect-field__input {
+    flex-direction: row;
+}

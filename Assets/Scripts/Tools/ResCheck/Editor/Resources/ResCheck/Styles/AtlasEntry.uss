@@ -1,0 +1,49 @@
+AtlasEntry {
+    flex-direction: row;
+    flex-grow: 1
+    height: 40;
+    justify-content: center;
+    margin-right: 2;
+    margin-left: 2;
+    margin-top: 2;
+    margin-bottom: 2;
+    background-color: #d3d7d4;
+}
+
+AtlasEntry > #labelName {
+    height: 20;
+    text-alignment: middle-center;
+    font-size: 11;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+AtlasEntry > #img {
+    height: 40;
+    width: 40;
+}
+
+AtlasEntry > #content {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+AtlasEntry > #content > #detail {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+AtlasEntry > #content > #detail > #formatNormal {
+    color: #121a2a;
+}
+
+AtlasEntry > #content > #detail > #formatWarning {
+    color: #f58220;
+}
+
+AtlasEntry > #content > #detail > #formatError {
+    color: #d93a49;
+    font-style: bold;
+}

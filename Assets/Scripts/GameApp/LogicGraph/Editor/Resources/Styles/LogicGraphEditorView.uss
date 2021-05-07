@@ -1,0 +1,53 @@
+LogicGraphEditorView {
+    flex: 1;
+}
+
+GraphEditorView > #TitleBar {
+
+}
+
+LogicGraphEditorView > #content {
+    flex: 1;
+}
+
+GraphEditorView > #content > #GraphView {
+    flex: 1;
+}
+
+GraphEditorView > #content > #inspector {
+    width: 400px;
+}
+
+.nodeEditor > .section > #slots {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+IMGUISlotEditorView {
+    flex-direction: column;
+    padding-bottom: 2px;
+}
+
+ObjectControlView {
+    flex-direction: row;
+}
+
+ObjectControlView > ObjectField {
+    flex: 1;
+}
+
+PropertyControlView {
+    padding: 4px 8px;
+}
+
+/* TEMP STUFF THAT SHOULD ACTUALLY STAY IN GRAPHVIEW */
+
+FloatInput {
+	min-width: 34px;
+}
+
+TextField {
+    min-width: 34px;
+}
+

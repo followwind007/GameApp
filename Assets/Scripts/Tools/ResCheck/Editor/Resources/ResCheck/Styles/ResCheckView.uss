@@ -1,0 +1,77 @@
+
+ResCheckView {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+ResCheckView > #toolbar {
+    height: 20;
+}
+
+ResCheckView > #toolbar > #bgColorField {
+    width: 40;
+    justify-content: center;
+}
+
+ResCheckView > #toolbar > #scaleSlider {
+    width: 100;
+}
+
+ResCheckView > #toolbar > #scaleSlider > #DragElement {
+    margin-top: 4;
+}
+
+ResCheckView > #toolbar > #searchField {
+    width: 100;
+}
+
+ResCheckView > #content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+ResCheckView > #content > #treeScrollView {
+    width: 160;
+    background-color: #74787c;
+}
+
+ResCheckView > #content > #treeScrollView > #treeContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 140;
+}
+
+ResCheckView > #content > #treeScrollView > #treeContainer > #button {
+    flex-grow: 0.9;
+}
+
+ResCheckView > #content > #scrollView {
+    flex-grow: 1;
+    width: 540;
+    background-color: #464547;
+}
+
+ResCheckView > #content > #scrollView > #scrollContent {
+    margin: 5;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+ResCheckView > #content > #detailScrollView {
+    flex-grow: 1;
+    width: 200;
+    background-color: #464547;
+}
+
+ResCheckView > #content > #detailScrollView > #detailContent {
+    margin: 5;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-view {
+    flex-direction: row;
+    flex-grow: 1;
+}

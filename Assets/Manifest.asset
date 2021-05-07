@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf33008b8fed49089727ddc0d4ffc712, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  bundles:
+  - bundle: assets/art/ui/prefab/card_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/Card.prefab
+    deps:
+    - assets/art/ui/atlas/card_7
+    - assets/art/ui/icon/facemid/j-1-3_7
+    - assets/art/ui/spriteatlas/card_1
+  - bundle: assets/art/ui/prefab/card1_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/Card1.prefab
+    deps:
+    - assets/art/ui/atlas/card_7
+    - assets/art/ui/icon/facemid/j-1-4_7
+    - assets/art/ui/spriteatlas/card_1
+  - bundle: assets/art/ui/prefab/card2_5
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/Card2.prefab
+    deps:
+    - assets/art/ui/atlas/card_7
+    - assets/art/ui/icon/facemid/j-1-5_7
+    - assets/art/ui/icon/facemid/j-1-6_7
+    - assets/art/ui/spriteatlas/card_1
+  - bundle: assets/art/ui/prefab/card4_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/Card4.prefab
+    deps: []
+  - bundle: assets/art/ui/prefab/text_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/Text.prefab
+    deps:
+    - assets/art/font/all_5
+    - assets/art/font/all_sdf_3
+  - bundle: assets/art/ui/prefab/textmesh_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Prefab/TextMesh.prefab
+    deps:
+    - assets/art/font/all_5
+    - assets/art/font/all_sdf_3
+  - bundle: assets/art/ui/icon/facemid/j-1-3_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-3.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-4_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-4.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-5_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-5.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-6_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-6.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-7_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-7.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-8_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-8.jpg
+    deps: []
+  - bundle: assets/art/ui/icon/facemid/j-1-9_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Icon/FaceMid/J-1-9.jpg
+    deps: []
+  - bundle: assets/art/ui/spriteatlas/card_1
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/SpriteAtlas/Card.spriteatlas
+    deps:
+    - assets/art/ui/atlas/card_7
+  - bundle: assets/art/font/all_5
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/Font/all.ttf
+    deps: []
+  - bundle: assets/art/font/all_sdf_3
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/Font/all_SDF.asset
+    deps:
+    - assets/art/font/all_5
+  - bundle: assets/art/animation/meidui_show_2
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/Animation/meidui_show.anim
+    deps: []
+  - bundle: assets/art/animation/meidui_show_cmp_1
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/Animation/meidui_show_cmp.anim
+    deps: []
+  - bundle: assets/art/ui/atlas/card_7
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/UI/Atlas/Card/battle_card_fight_background.png
+    - Assets/Art/UI/Atlas/Card/battle_star_s.png
+    - Assets/Art/UI/Atlas/Card/card_icon_attack.png
+    - Assets/Art/UI/Atlas/Card/card_icon_shield.png
+    - Assets/Art/UI/Atlas/Card/card_star_1.png
+    - Assets/Art/UI/Atlas/Card/card_star_2.png
+    - Assets/Art/UI/Atlas/Card/card_star_3.png
+    - Assets/Art/UI/Atlas/Card/card_star_4.png
+    - Assets/Art/UI/Atlas/Card/card_star_5.png
+    - Assets/Art/UI/Atlas/Card/card_star_6.png
+    - Assets/Art/UI/Atlas/Card/card_type_icon_1.png
+    - Assets/Art/UI/Atlas/Card/card_type_icon_2.png
+    - Assets/Art/UI/Atlas/Card/card_type_icon_3.png
+    - Assets/Art/UI/Atlas/Card/card_type_icon_4.png
+    - Assets/Art/UI/Atlas/Card/card_type_icon_5.png
+    - Assets/Art/UI/Atlas/Card/f_0.png
+    - Assets/Art/UI/Atlas/Card/f_0_dec.png
+    - Assets/Art/UI/Atlas/Card/f_0_dec_line1.png
+    - Assets/Art/UI/Atlas/Card/f_0_dec_line2.png
+    - Assets/Art/UI/Atlas/Card/f_0_dec_linebg.png
+    - Assets/Art/UI/Atlas/Card/f_0_h.png
+    - Assets/Art/UI/Atlas/Card/f_0_q.png
+    - Assets/Art/UI/Atlas/Card/f_0_s.png
+    - Assets/Art/UI/Atlas/Card/f_2.png
+    - Assets/Art/UI/Atlas/Card/f_2_s.png
+    - Assets/Art/UI/Atlas/Card/f_3.png
+    - Assets/Art/UI/Atlas/Card/ill_partner_cardframe.png
+    - Assets/Art/UI/Atlas/Card/k_4_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_1_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_1_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_1_e.png
+    - Assets/Art/UI/Atlas/Card/k_4_1_e_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_2.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_d.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_e.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_e_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_2_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_3.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_d.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_e.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_e_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_3_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_4.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_d.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_e.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_e_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_4_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_5.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_1_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_d.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_e.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_e_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_5_t.png
+    - Assets/Art/UI/Atlas/Card/k_4_dec_1.png
+    - Assets/Art/UI/Atlas/Card/k_4_dec_2.png
+    - Assets/Art/UI/Atlas/Card/n_1.png
+    - Assets/Art/UI/Atlas/Card/n_2.png
+    - Assets/Art/UI/Atlas/Card/n_3.png
+    - Assets/Art/UI/Atlas/Card/n_4.png
+    - Assets/Art/UI/Atlas/Card/P_4_1.png
+    - Assets/Art/UI/Atlas/Card/P_4_2.png
+    - Assets/Art/UI/Atlas/Card/P_4_3.png
+    - Assets/Art/UI/Atlas/Card/P_4_4.png
+    - Assets/Art/UI/Atlas/Card/q_0_3_1.png
+    - Assets/Art/UI/Atlas/Card/q_0_3_2.png
+    - Assets/Art/UI/Atlas/Card/q_0_3_3.png
+    - Assets/Art/UI/Atlas/Card/q_0_3_4.png
+    - Assets/Art/UI/Atlas/Card/q_0_3_4_h.png
+    - Assets/Art/UI/Atlas/Card/q_2_2_4.png
+    - Assets/Art/UI/Atlas/Card/x_5_1.png
+    - Assets/Art/UI/Atlas/Card/x_5_2.png
+    - Assets/Art/UI/Atlas/Card/x_5_3.png
+    - Assets/Art/UI/Atlas/Card/x_5_7.png
+    - Assets/Art/UI/Atlas/Card/x_5_8.png
+    - Assets/Art/UI/Atlas/Card/x_5_12.png
+    - Assets/Art/UI/Atlas/Card/x_5_13.png
+    - Assets/Art/UI/Atlas/Card/x_5_14.png
+    - Assets/Art/UI/Atlas/Card/x_5_15.png
+    - Assets/Art/UI/Atlas/Card/x_5_25.png
+    - Assets/Art/UI/Atlas/Card/x_5_26.png
+    - Assets/Art/UI/Atlas/Card/x_5_27.png
+    - Assets/Art/UI/Atlas/Card/x_5_28.png
+    - Assets/Art/UI/Atlas/Card/x_5_29.png
+    - Assets/Art/UI/Atlas/Card/x_5_30.png
+    - Assets/Art/UI/Atlas/Card/x_5_31.png
+    - Assets/Art/UI/Atlas/Card/x_5_32.png
+    deps:
+    - assets/art/ui/spriteatlas/card_1
+  - bundle: assets/lua_0
+    offset: 0
+    gidx: 0
+    assets: []
+    deps: []
+  - bundle: assets/art/editor/resources/tmp settings_0
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Art/Editor/Resources/TMP Settings.asset
+    deps:
+    - assets/art/font/all_5
+    - assets/art/font/all_sdf_3
+  - bundle: assets/scenes/build_6
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Scenes/Build.unity
+    deps:
+    - assets/art/font/all_5
+  - bundle: assets/scenes/samplescene_2
+    offset: 0
+    gidx: 0
+    assets:
+    - Assets/Scenes/SampleScene.unity
+    deps:
+    - assets/art/font/all_5
+    - assets/art/font/all_sdf_3
+    - assets/art/ui/atlas/card_7
+    - assets/art/ui/icon/facemid/j-1-3_7
+    - assets/art/ui/icon/facemid/j-1-5_7
+    - assets/art/ui/icon/facemid/j-1-6_7
+    - assets/art/ui/spriteatlas/card_1

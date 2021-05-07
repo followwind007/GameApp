@@ -1,0 +1,4 @@
+Vector3SlotView {
+    flex-direction: row;
+    max-width: 150px;
+}

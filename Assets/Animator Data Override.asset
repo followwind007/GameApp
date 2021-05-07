@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b718e97c3e146818784821e96122c19, type: 3}
+  m_Name: Animator Data Override
+  m_EditorClassIdentifier: 
+  animator: {fileID: 11400000, guid: 248ca88073fe07f4ab5d2ae54c423103, type: 2}
+  overrides:
+  - {fileID: 2787602152709480884}
+  - {fileID: 7972567994203456548}
+  - {fileID: 5265839567579365290}
+--- !u!114 &2787602152709480884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2520528d949a4853b23fa0cb2da75781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: Default
+  enabled: 1
+  clip: {fileID: 7400000, guid: 54c41d6ff27c94f4784cd9af1a672d9f, type: 2}
+--- !u!114 &5265839567579365290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2520528d949a4853b23fa0cb2da75781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: s2
+  enabled: 0
+  clip: {fileID: 0}
+--- !u!114 &7972567994203456548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2520528d949a4853b23fa0cb2da75781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: s1
+  enabled: 0
+  clip: {fileID: 0}

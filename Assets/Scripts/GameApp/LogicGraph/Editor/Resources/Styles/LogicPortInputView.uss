@@ -1,0 +1,168 @@
+LogicPortInputView {
+    width: 412px;
+    height: 22px;
+    padding-top: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+LogicPortInputView > #container {
+    background-color: rgba(63, 63, 63, 0.8);
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+    margin-right: 12px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-color: rgba(25, 25, 25, 0.8);
+    border-radius: 2px;
+}
+
+.field {
+    min-width: 60px;
+}
+
+LogicPortInputView > #container > #slot {
+    width: 8px;
+    height: 8px;
+    background-color: #2B2B2B;
+    border-color: #232323;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+LogicPortInputView > #container > #slot > #dot {
+    width: 4px;
+    height: 4px;
+    background-color: #ff0000;
+    border-radius: 4px;
+}
+
+LogicPortInputView.typenumber {
+    --edge-color:#508A88;
+}
+
+LogicPortInputView.typenumber > #container > #slot > #dot {
+    background-color:#508A88;
+}
+
+LogicPortInputView.typeboolean {
+    --edge-color:#826858;
+}
+
+LogicPortInputView.typeboolean > #container > #slot > #dot {
+    background-color:#826858;
+}
+
+LogicPortInputView.typestring {
+    --edge-color:#ef5b9c;
+}
+
+LogicPortInputView.typestring > #container > #slot > #dot {
+    background-color:#ef5b9c;
+}
+
+LogicPortInputView.typeRect {
+    --edge-color:#ad8b3d;
+}
+
+LogicPortInputView.typeRect > #container > #slot > #dot {
+    background-color:#ad8b3d;
+}
+
+LogicPortInputView.typeBounds {
+    --edge-color:#6b473c;
+}
+
+LogicPortInputView.typeBounds > #container > #slot > #dot {
+    background-color:#6b473c;
+}
+
+LogicPortInputView.typeAnimatonCurve {
+    --edge-color:#0c212b;
+}
+
+LogicPortInputView.typeAnimatonCurve > #container > #slot > #dot {
+    background-color:#0c212b;
+}
+
+LogicPortInputView.typeObject {
+    --edge-color:#2a5caa;
+}
+
+LogicPortInputView.typeObject > #container > #slot > #dot {
+    background-color:#2a5caa;
+}
+
+LogicPortInputView.typeVector4 {
+    --edge-color: #9AEF92;
+}
+
+LogicPortInputView.typeVector4 > #container > #slot > #dot {
+    background-color: #9AEF92;
+}
+
+LogicPortInputView.typeVector3 {
+    --edge-color: #9AEF92;
+}
+
+LogicPortInputView.typeVector3 > #container > #slot > #dot {
+    background-color: #9AEF92;
+}
+
+LogicPortInputView.typeVector2 {
+    --edge-color: #9AEF92;
+}
+
+LogicPortInputView.typeVector2 > #container > #slot > #dot {
+    background-color: #9AEF92;
+}
+
+LogicPortInputView.typeColor {
+    --edge-color: #FBCBF4;
+}
+
+LogicPortInputView.typeColor > #container > #slot > #dot {
+    background-color: #FBCBF4;
+}
+
+LogicPortInputView.typeElua {
+    --edge-color: #426ab3;
+}
+
+LogicPortInputView.typeElua > #container > #slot > #dot {
+    background-color: #426ab3;
+}
+
+LogicPortInputView.typeObject {
+    --edge-color: #fdb933;
+}
+
+LogicPortInputView.typeObject > #container > #slot > #dot {
+    background-color: #fdb933;
+}
+
+LogicPortInputView.typeAnimationCurve {
+    --edge-color: #00FF00;
+}
+
+LogicPortInputView.typeAnimationCurve > #container > #slot > #dot {
+    background-color: #00FF00;
+}
+
+LogicPortInputView.typefun {
+    --edge-color: #00FF00;
+}
+
+LogicPortInputView.typefun > #container > #slot > #dot {
+    background-color: #1d953f
+}

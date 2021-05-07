@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c696ece8c484cfe9bedd7af22b5c454, type: 3}
+  m_Name: ChessPlayerAsset
+  m_EditorClassIdentifier: 
+  playerInfos:
+    stageId: 0
+    behaviourTrees:
+    - 
+    players:
+    - id: 1
+      troop:
+        discoverSkillRound: 0
+        heros:
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+      behaviourTrees: []
+      infos:
+      - round: 0
+        resetBoard: 0
+        board: []
+        handOp: 0
+        hand: []
+        resetTrap: 0
+        traps: []
+        resetShop: 0
+        shop:
+          dropId: 0
+          count: 0
+          groups: []
+        resetGold: 0
+        gold: 0
+        resetTech: 0
+        tech: 0
+        resetTechPoint: 0
+        techPoint: 0
+        resetMaxGold: 0
+        maxGold: 0
+        resetHp: 0
+        hp: 0
+        resetMaxHp: 0
+        maxHp: 0
+      - round: 0
+        resetBoard: 0
+        board: []
+        handOp: 0
+        hand: []
+        resetTrap: 0
+        traps: []
+        resetShop: 0
+        shop:
+          dropId: 0
+          count: 0
+          groups: []
+        resetGold: 0
+        gold: 0
+        resetTech: 0
+        tech: 0
+        resetTechPoint: 0
+        techPoint: 0
+        resetMaxGold: 0
+        maxGold: 0
+        resetHp: 0
+        hp: 0
+        resetMaxHp: 0
+        maxHp: 0
+      - round: 0
+        resetBoard: 0
+        board: []
+        handOp: 0
+        hand: []
+        resetTrap: 0
+        traps: []
+        resetShop: 0
+        shop:
+          dropId: 0
+          count: 0
+          groups: []
+        resetGold: 0
+        gold: 0
+        resetTech: 0
+        tech: 0
+        resetTechPoint: 0
+        techPoint: 0
+        resetMaxGold: 0
+        maxGold: 0
+        resetHp: 0
+        hp: 0
+        resetMaxHp: 0
+        maxHp: 0
+    - id: 4
+      troop:
+        discoverSkillRound: 0
+        heros:
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+      behaviourTrees: []
+      infos: []
+    - id: 1
+      troop:
+        discoverSkillRound: 0
+        heros:
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+      behaviourTrees: []
+      infos: []
+    - id: 1
+      troop:
+        discoverSkillRound: 0
+        heros:
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+        - id: 0
+          skills: 
+      behaviourTrees: []
+      infos: []
+    myList:
+    - round: 1
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups:
+        - count: 0
+          cards: 
+        - count: 0
+          cards: 
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    - round: 1
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups: []
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    - round: 5
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups: []
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    opponentList:
+    - round: 0
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups: []
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    - round: 0
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups: []
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    - round: 0
+      resetBoard: 0
+      board: []
+      handOp: 0
+      hand: []
+      resetTrap: 0
+      traps: []
+      resetShop: 0
+      shop:
+        dropId: 0
+        count: 0
+        groups: []
+      resetGold: 0
+      gold: 0
+      resetTech: 0
+      tech: 0
+      resetTechPoint: 0
+      techPoint: 0
+      resetMaxGold: 0
+      maxGold: 0
+      resetHp: 0
+      hp: 0
+      resetMaxHp: 0
+      maxHp: 0
+    roundDrops:
+      drops:
+      - id: 0
+        dropCards: 
+      - id: 0
+        dropCards: 
+      rounds:
+      - round: 0
+        dropId: 0
+      - round: 0
+        dropId: 0
+    roundDiscovers:
+    - round: 0
+      cardGroups: []
+    - round: 0
+      cardGroups: []
+    matchInfos: []
+    roundAttacks: []
+    dropPools:
+    - id: 0
+      dropCards: 010000001f000000
+    processType: 0
+    usePlayerInfo: 0

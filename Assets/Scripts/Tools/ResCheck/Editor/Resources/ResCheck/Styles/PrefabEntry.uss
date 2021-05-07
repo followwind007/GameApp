@@ -1,0 +1,60 @@
+PrefabEntry {
+    flex-direction: row;
+    width: 500;
+    justify-content: center;
+    margin-right: 5;
+    margin-left: 5;
+    margin-top: 5;
+    margin-bottom: 5;
+    background-color: #a1a3a6;
+}
+
+PrefabEntry > #labelName {
+    height: 20;
+    text-alignment: middle-center;
+    font-size: 11;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+PrefabEntry > #img {
+    height: 40;
+    width: 40;
+}
+
+PrefabEntry > #content {
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #8a8c8e;
+}
+
+PrefabEntry > #content > #contentSub1 {
+    background-color: #d3d7d4;
+    flex-direction: column;
+    margin-top:2;
+    margin-bottom: 2;
+}
+
+PrefabEntry > #content > #contentSub1 > #labelParticle {
+    color: #d93a49;
+}
+
+PrefabEntry > #content > #detail {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+PrefabEntry > #content > #detail > #formatNormal {
+    color: #121a2a;
+}
+
+PrefabEntry > #content > #detail > #formatWarning {
+    color: #f58220;
+}
+
+PrefabEntry > #content > #detail > #formatError {
+    color: #d93a49;
+    font-style: bold;
+}

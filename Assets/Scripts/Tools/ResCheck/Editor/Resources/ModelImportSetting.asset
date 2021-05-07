@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b362678c89460e8ba07eef8c4ef90e, type: 3}
+  m_Name: ModelImportSetting
+  m_EditorClassIdentifier: 
+  autoImport: 0
+  models:
+  - path: Assets/Art/Character/Raw/
+    textureDir: texture
+    materialDir: material
+    modelDir: model
+    extractAnimation: 1
+    animationResDir: autogen
+    extractMesh: 1
+    meshResDir: autogen
+    extractAvatar: 0
+    avatarResDir: Avatar
+    reserves:
+    - lightroot
+    - effect
+    prefabUseAssetPath: 1
+    prefabDir: Assets/Art/Character/Prefabs/
+  - path: Assets/Art/Common/Raw/CardPack/
+    textureDir: texture
+    materialDir: material
+    modelDir: model
+    extractAnimation: 1
+    animationResDir: autogen
+    extractMesh: 1
+    meshResDir: autogen
+    extractAvatar: 0
+    avatarResDir: Avatar
+    reserves:
+    - lightroot
+    - effect
+    prefabUseAssetPath: 1
+    prefabDir: Assets/Art/Common/Prefabs/CardPack/

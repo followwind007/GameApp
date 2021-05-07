@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eaca19e6a484345aae8881a972f557b, type: 3}
+  m_Name: LogicGraphSettings
+  m_EditorClassIdentifier: 
+  luaRoot: Assets/Lua/
+  graphAssetPath: Assets/Art/Graph/
+  graphCodePath: Assets/Lua/App/LogicGraph/Gen/
+  nodePath: Assets/Lua/App/LogicGraph/Nodes/
+  requirePaths:
+  - Tools/EmmyLuaApi/
+  - Assets/Lua/app/LogicGraph/
+  logicGraph:
+    nodeDispose: Dispose
+    formatDispose: self:Dispose()
+    nodeAddTimer: AddTimer
+    nodeCallback: Callback_
+    formatAddTimer: self.timers.{0} = Timer.New(function() self:{0}() end, {1}, {2})
+    formatStartTimer: self.timers.{0}:Start()
+  stateGraph:
+    nodeEntry: Entry
+    nodeAnyState: AnyState
+    nodeState: State
+    nodeExit: Exit
+    nodeTransition: Transition
+    formatCreate: local fsm = FSM.New()
+    formatAddParam: fsm:AddValue("{0}", {1}, {2}, {3})
+    formatCreateState: local {0} = FSMState.New("{0}", {1}, {2})
+    formatAddState: fsm:AddState("{0}", {0})
+    formatAddCondition: local {0} = FSMCondition.New(FSMCondition.Type.{1}, "{2}",
+      {3})
+    formatAddLink: fsm:AddLink("{0}", "{1}", {{{2}}})
+    formatPlayState: self.fsm:PlayState("{0}")
+    formatDispose: self.fsm:Dispose()
+  graphDebug:
+    debugMode: 1
+    notifyStayDura: 2
+    formatNodeEnter: GraphDebug.Enter("{0}")
+    formatNodeExit: GraphDebug.Exit("{0}")
+  nodes:
+    Event: Event
+    logic: Logic
+    math: Math
+    variable: Variable
+    state: State
+    graph: Graph
+    callback: Callback
+    property: Property
+  hideNodesPattern:
+  - Variable/
+  logicNode:
+    nodeWhile: While
+    nodeDoUntil: DoUntil
+    nodeFor: For
+    nodeCompare: Compare
+  luaAnnotation:
+    param: param
+    Return: return
+    vararg: vararg
+    input: input
+    output: output
+  luaTypes:
+    typeNumber: number
+    typeBool: boolean
+    typeString: string
+    typeTable: table
+    typeElua: Elua
+    typeSchedule: schedule
+    typeTransition: transition
+    typeFunction: fun
+  luaClass:
+    property: LogicGraph.Property
+    variable: LogicGraph.Variable

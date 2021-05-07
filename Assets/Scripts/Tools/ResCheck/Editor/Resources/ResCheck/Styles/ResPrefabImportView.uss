@@ -1,0 +1,36 @@
+
+ResPrefabImportView {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+ResPrefabImportView > #toolbar {
+    height: 20;
+}
+
+ResPrefabImportView > #toolbar > #bgColorField {
+    width: 40;
+    justify-content: center;
+}
+
+ResPrefabImportView > #toolbar > #scaleSlider {
+    width: 100;
+}
+
+ResPrefabImportView > #toolbar > #scaleSlider > #DragElement {
+    margin-top: 4;
+}
+
+ResPrefabImportView > #toolbar > #searchField {
+    width: 100;
+}
+
+ResPrefabImportView > #content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.content-view {
+    flex-direction: row;
+    flex-grow: 1;
+}

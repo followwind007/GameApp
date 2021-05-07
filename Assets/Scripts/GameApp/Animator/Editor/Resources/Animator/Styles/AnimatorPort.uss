@@ -1,0 +1,72 @@
+/* THIS FILE IS FROM GRAPHVIEW BUT CONTAINS MODIFICATIONS */
+
+AnimatorPort {
+    height: 24px;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    --port-color: rgb(200, 200, 200);
+}
+
+AnimatorPort.input {
+    flex-direction: row;
+}
+
+AnimatorPort.output {
+    flex-direction: row-reverse;
+}
+
+AnimatorPort > #connector {
+    border-color: rgb(70, 70, 70);
+    background-color: #212121;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left-width:1px;
+    border-top-width:1px;
+    border-right-width:1px;
+    border-bottom-width:1px;
+}
+
+AnimatorPort > #connector:hover {
+    border-color:  #f0f0f0
+}
+
+AnimatorPort > #connector > #cap
+{
+    background-color: #212121;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+AnimatorPort > #connector > #cap:hover
+{
+    background-color: #f0f0f0;
+}
+
+AnimatorPort > #connector.portHighlight {
+    border-color: #f0f0f0;
+}
+
+AnimatorPort > #type {
+    font-size:11px;
+    height:16px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+AnimatorPort.input > #type {
+
+}
+
+AnimatorPort.output > #type {
+
+}

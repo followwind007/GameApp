@@ -1,0 +1,7 @@
+.\input_filelist.txt
+.\intermediate\ChineseOutPut.txt
+.\intermediate\unChineseOutPut.txt
+.\src\FontExtract\ChineseOutPut.txt
+.\src\FontExtract\outPut.txt
+.\src\FontExtract\unChineseOutPut.txt
+.\src\Sfntly\sfntly\java\quickstart.txt

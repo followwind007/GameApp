@@ -1,0 +1,16 @@
+AnimatorView {
+    background-color: #202020;
+    flex: 1;
+}
+
+AnimatorView > #hor {
+    flex: 1;
+}
+
+AnimatorView > #content {
+    flex: 1;
+}
+
+AnimatorView > #content > #graph {
+    flex: 1;
+}

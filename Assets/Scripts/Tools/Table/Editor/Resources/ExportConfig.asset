@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf776420ca9d114ebc119c5234844f2, type: 3}
+  m_Name: ExportConfig
+  m_EditorClassIdentifier: 
+  excelPath: ./MarvelDesign/tables/
+  exportPath: ./Assets/Lua/app/data/
+  tables:
+    list:
+    - table: ui_config
+      sheet: "UI\u914D\u7F6E\u8868"
+      export: ui_config
+      isUse: 1
+    - table: ui_config
+      sheet: "UI\u5143\u7D20\u914D\u7F6E\u8868"
+      export: u_element_config
+      isUse: 1
+    - table: dialogue
+      sheet: "\u5BF9\u8BDD"
+      export: dialogue_config
+      isUse: 1
+    - table: performance
+      sheet: "\u89D2\u8272\u8868\u73B0"
+      export: performance_config
+      isUse: 1
+    - table: quest_guide
+      sheet: "\u65B0\u624B\u5F15\u5BFC\u914D\u7F6E\u8868"
+      export: guide
+      isUse: 1
+    - table: quest_guide
+      sheet: "\u65B0\u624B\u95EE\u7B54\u95EE\u9898"
+      export: guide_question
+      isUse: 1
+    - table: quest_guide
+      sheet: "\u65B0\u624B\u95EE\u7B54\u7B54\u6848"
+      export: guide_answer
+      isUse: 1
+    - table: quest_guide
+      sheet: "\u65B0\u624B\u6218\u6597"
+      export: guide_battle
+      isUse: 1
+    - table: quest_guide
+      sheet: "\u65B0\u624B\u6218\u6597\u524D\u5267\u60C5"
+      export: guide_battle_plot
+      isUse: 1
+    - table: name_dict
+      sheet: "\u59D3\u540D\u968F\u673A\u8868"
+      export: name_dict
+      isUse: 1
+    - table: name_dict
+      sheet: "\u5B57\u7B26\u4E32\u968F\u673A\u8868"
+      export: string_dict
+      isUse: 1

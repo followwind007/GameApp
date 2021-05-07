@@ -1,0 +1,3 @@
+ColorSlotView {
+    width: 100px;
+}

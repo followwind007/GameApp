@@ -1,0 +1,13 @@
+LogicGraphToolbar{
+    height: 22px;
+}
+
+ToolbarButton{
+    align-self: center;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+Label {
+    color: #212121;
+}

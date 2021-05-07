@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86edcbfd0fb42d5a5c2f5df61a0eb9a, type: 3}
+  m_Name: ResCheckSettings
+  m_EditorClassIdentifier: 
+  textureConfigs:
+  - path: Assets/Art/UI/Atlas/
+    useage: 0
+    name: "UI-Atlas\u538B\u7F29\u89C4\u5219"
+    type: 8
+    useMOF: 0
+    usePakingTag: 1
+    forceAlphaChannel: 1
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 512
+      overriden: 0
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 512
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 512
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/UI/Sprite/
+    useage: 0
+    name: "UI-Sprite\u538B\u7F29\u89C4\u5219"
+    type: 8
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 0
+    forceNotReadWrite: 0
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 2048, y: 2048}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/UI/Icon/
+    useage: 0
+    name: "UI-Icon\u538B\u7F29\u89C4\u5219"
+    type: 8
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 0
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 2048, y: 1024}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 2048
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/Character/Raw
+    useage: 4
+    name: "3D\u6A21\u578B\u56FE\u7247\u7684\u538B\u7F29\u89C4\u5219(\u65E0Alpha\u901A\u9053)"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 0
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 45
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 48
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/Character/Raw
+    useage: 8
+    name: "3D\u6A21\u578B\u56FE\u7247\u7684\u538B\u7F29\u89C4\u5219(Alpha\u901A\u9053)"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 0
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/Character/Raw
+    useage: 1
+    name: "3D\u6A21\u578B\u6CD5\u7EBF"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 0
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 45
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 48
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: Assets/Art/Character/Raw
+    useage: 2
+    name: "3D\u6A21\u578B\u901A\u9053\u56FE"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 1
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 0
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: '[FALLBACK-NoAlpha]'
+    useage: -1
+    name: "\u9ED8\u8BA4\u65E0alpha"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 1
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 1
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 45
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 48
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  - path: '[FALLBACK-Alpha]'
+    useage: -1
+    name: "\u9ED8\u8BA4alpha"
+    type: 0
+    useMOF: 1
+    usePakingTag: 0
+    forceAlphaChannel: 1
+    forceNotReadWrite: 1
+    generateMipMaps: 0
+    spriteMeshType: 0
+    maxSize: {x: 512, y: 512}
+    filterMode: 1
+    compression: 1
+    platformSettings:
+    - platform: Standalone
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 4
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 0
+    - platform: Android
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 47
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+    - platform: iOS
+      allowsAlphaSplitting: 0
+      androidEtc2FallbackOverride: 0
+      compressionQuality: 50
+      crunchedCompression: 0
+      format: 54
+      maxTextureSize: 1024
+      overriden: 1
+      resizeAlgorithm: 0
+      textureCompression: 1
+  atlasPath: Assets/Art/UI/Atlas/
+  uiPrefabRoot: Assets/Art/UI/Prefabs/
+  extraPrefabList:
+  - Assets/Art/Common/Prefabs/
+  - Assets/Plugins/LHGameBoot/

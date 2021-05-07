@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2689263826391483273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2689263826391483275}
+  - component: {fileID: 2689263826391483274}
+  m_Layer: 0
+  m_Name: BTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2689263826391483275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689263826391483273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2689263826391483274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689263826391483273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: "{\n\t\"EntryTask\":{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.EntryTask\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(535,122)\"\n\t\t},\n\t\t\"ID\":0,\n\t\t\"Name\":\"Entry\",\n\t\t\"Instant\":true\n\t},\n\t\"RootTask\":{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Repeater\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(2.5,155)\"\n\t\t},\n\t\t\"ID\":1,\n\t\t\"Name\":\"Repeater\",\n\t\t\"Instant\":true,\n\t\t\"SharedIntcount\":{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedInt\",\n\t\t\t\"Name\":null,\n\t\t\t\"Int32mValue\":1\n\t\t},\n\t\t\"SharedBoolrepeatForever\":{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedBool\",\n\t\t\t\"Name\":null,\n\t\t\t\"BooleanmValue\":true\n\t\t},\n\t\t\"SharedBoolendOnFailure\":{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedBool\",\n\t\t\t\"Name\":null,\n\t\t\t\"BooleanmValue\":false\n\t\t},\n\t\t\"Children\":[{\n\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Sequence\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(0,180)\"\n\t\t\t},\n\t\t\t\"ID\":2,\n\t\t\t\"Name\":\"Sequence\",\n\t\t\t\"Instant\":true,\n\t\t\t\"AbortTypeabortType\":\"None\",\n\t\t\t\"Children\":[{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.ActionBinder\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(-390,220)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":3,\n\t\t\t\t\"Name\":\"ab_test1\",\n\t\t\t\t\"Instant\":true,\n\t\t\t\t\"BindableValuesvals\":{\n\t\t\t\t\t\"List`1m_ints\":[],\n\t\t\t\t\t\"List`1m_floats\":[],\n\t\t\t\t\t\"List`1m_strings\":[\"Assets/Lua/App/BehaviourTree/Action/TestAction.lua\",\"test1\",\"\"],\n\t\t\t\t\t\"List`1m_vector2s\":[],\n\t\t\t\t\t\"List`1m_vector3s\":[],\n\t\t\t\t\t\"List`1m_vector4s\":[],\n\t\t\t\t\t\"List`1m_rects\":[],\n\t\t\t\t\t\"List`1m_bounds\":[],\n\t\t\t\t\t\"List`1m_colors\":[\"RGBA(0.000,
+        0.000, 0.000, 0.000)\"],\n\t\t\t\t\t\"List`1m_curves\":[],\n\t\t\t\t\t\"List`1m_bools\":[],\n\t\t\t\t\t\"List`1m_objects\":[],\n\t\t\t\t\t\"List`1wraps\":[{\n\t\t\t\t\t\t\"ValueTypetype\":\"String\",\n\t\t\t\t\t\t\"Stringname\":\"_path\",\n\t\t\t\t\t\t\"Int32index\":0\n\t\t\t\t\t},{\n\t\t\t\t\t\t\"ValueTypetype\":\"String\",\n\t\t\t\t\t\t\"Stringname\":\"str\",\n\t\t\t\t\t\t\"Int32index\":1\n\t\t\t\t\t},{\n\t\t\t\t\t\t\"ValueTypetype\":\"String\",\n\t\t\t\t\t\t\"Stringname\":\"str2\",\n\t\t\t\t\t\t\"Int32index\":2\n\t\t\t\t\t},{\n\t\t\t\t\t\t\"ValueTypetype\":\"Color\",\n\t\t\t\t\t\t\"Stringname\":\"color\",\n\t\t\t\t\t\t\"Int32index\":0\n\t\t\t\t\t}]\n\t\t\t\t}\n\t\t\t},{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.ActionBinder\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(-177.5,220)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":4,\n\t\t\t\t\"Name\":\"ab_test2\",\n\t\t\t\t\"Instant\":true,\n\t\t\t\t\"BindableValuesvals\":{\n\t\t\t\t\t\"List`1m_ints\":[],\n\t\t\t\t\t\"List`1m_floats\":[],\n\t\t\t\t\t\"List`1m_strings\":[\"Assets/Lua/App/BehaviourTree/Action/TestAction2.lua\"],\n\t\t\t\t\t\"List`1m_vector2s\":[\"(0,0)\"],\n\t\t\t\t\t\"List`1m_vector3s\":[],\n\t\t\t\t\t\"List`1m_vector4s\":[],\n\t\t\t\t\t\"List`1m_rects\":[],\n\t\t\t\t\t\"List`1m_bounds\":[],\n\t\t\t\t\t\"List`1m_colors\":[],\n\t\t\t\t\t\"List`1m_curves\":[],\n\t\t\t\t\t\"List`1m_bools\":[],\n\t\t\t\t\t\"List`1m_objects\":[],\n\t\t\t\t\t\"List`1wraps\":[{\n\t\t\t\t\t\t\"ValueTypetype\":\"String\",\n\t\t\t\t\t\t\"Stringname\":\"_path\",\n\t\t\t\t\t\t\"Int32index\":0\n\t\t\t\t\t},{\n\t\t\t\t\t\t\"ValueTypetype\":\"Vector2\",\n\t\t\t\t\t\t\"Stringname\":\"vec2\",\n\t\t\t\t\t\t\"Int32index\":0\n\t\t\t\t\t}]\n\t\t\t\t}\n\t\t\t},{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.UntilSuccess\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(2.5,212)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":5,\n\t\t\t\t\"Name\":\"Until
+        Success\",\n\t\t\t\t\"Instant\":true,\n\t\t\t\t\"Children\":[{\n\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.HasReceivedEvent\",\n\t\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\t\"Offset\":\"(0,150)\"\n\t\t\t\t\t},\n\t\t\t\t\t\"ID\":6,\n\t\t\t\t\t\"Name\":\"Has
+        Received Event\",\n\t\t\t\t\t\"Instant\":true,\n\t\t\t\t\t\"SharedStringeventName\":{\n\t\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedString\",\n\t\t\t\t\t\t\"Name\":null,\n\t\t\t\t\t\t\"StringmValue\":\"test\"\n\t\t\t\t\t},\n\t\t\t\t\t\"SharedVariablestoredValue1\":{\n\t\t\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedString\",\n\t\t\t\t\t\t\"Name\":\"l_event1\",\n\t\t\t\t\t\t\"IsShared\":true,\n\t\t\t\t\t\t\"StringmValue\":\"abc\"\n\t\t\t\t\t}\n\t\t\t\t}]\n\t\t\t},{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.Tasks.Idle\",\n\t\t\t\t\"NodeData\":{\n\t\t\t\t\t\"Offset\":\"(238.5,210)\"\n\t\t\t\t},\n\t\t\t\t\"ID\":7,\n\t\t\t\t\"Name\":\"Idle\",\n\t\t\t\t\"Instant\":true\n\t\t\t}]\n\t\t}]\n\t}\n}"
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.6.1

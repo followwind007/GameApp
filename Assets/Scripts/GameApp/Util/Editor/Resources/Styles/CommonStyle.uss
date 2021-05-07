@@ -1,0 +1,11 @@
+.BtnNormal {
+    min-width: 100px;
+}
+
+.BtnSmall {
+    min-width: 50px;
+}
+
+.HorContainer {
+    flex-direction: row;
+}

@@ -1,0 +1,135 @@
+/* THIS FILE IS FROM GRAPHVIEW BUT CONTAINS MODIFICATIONS */
+
+LogicPortView {
+    height: 24px;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    --port-color: rgb(200, 200, 200);
+}
+
+LogicPortView.input {
+    flex-direction: row;
+}
+
+LogicPortView.output {
+    flex-direction: row-reverse;
+}
+
+LogicPortView > #connector {
+    border-color: rgb(70, 70, 70);
+    background-color: #212121;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left-width:1px;
+    border-top-width:1px;
+    border-right-width:1px;
+    border-bottom-width:1px;
+}
+
+LogicPortView > #connector:hover {
+    border-color:  #f0f0f0
+}
+
+LogicPortView > #connector > #cap
+{
+    background-color: #212121;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+LogicPortView > #connector > #cap:hover
+{
+    background-color: #f0f0f0;
+}
+
+LogicPortView > #connector.portHighlight {
+    border-color: #f0f0f0;
+}
+
+LogicPortView > #type {
+    font-size:11px;
+    height:16px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/*******************************/
+/* LogicPorts colors by types */
+/*******************************/
+LogicPortView.typenumber {
+    --port-color:#508A88;
+}
+
+LogicPortView.typeboolean {
+    --port-color:#826858;
+}
+
+LogicPortView.typestring {
+    --port-color:#ef5b9c;
+}
+
+LogicPortView.typeRect {
+    --port-color:#ad8b3d;
+}
+
+LogicPortView.typeBounds {
+    --port-color:#6b473c;
+}
+
+LogicPortView.typeAnimatonCurve {
+    --port-color:#0c212b;
+}
+
+LogicPortView.typeObject {
+    --port-color:#2a5caa;
+}
+
+LogicPortView.typeVector4 {
+    --port-color: #9AEF92;
+}
+
+LogicPortView.typeVector3 {
+    --port-color: #9AEF92;
+}
+
+LogicPortView.typeVector2 {
+    --port-color: #9AEF92;
+}
+
+LogicPortView.typeColor {
+    --port-color: #FBCBF4;
+}
+
+LogicPortView.typeschedule {
+    --port-color: #C0FF3E;
+}
+
+LogicPortView.typetransition {
+    --port-color: #1d953f;
+}
+
+LogicPortView.typeElua {
+    --port-color: #426ab3;
+}
+
+LogicPortView.typeObject {
+    --port-color: #fdb933;
+}
+
+LogicPortView.typeAnimationCurve {
+    --port-color: #00FF00;
+}
+
+LogicPortView.typefun {
+    --port-color: #1d953f;
+}

@@ -1,0 +1,49 @@
+
+BuilderView {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+BuilderView > #toolbar {
+    height: 20;
+}
+
+BuilderView > #toolbar > #bgColorField {
+    width: 40;
+    justify-content: center;
+}
+
+BuilderView > #toolbar > #scaleSlider {
+    width: 100;
+}
+
+BuilderView > #toolbar > #scaleSlider > #DragElement {
+    margin-top: 4;
+}
+
+BuilderView > #toolbar > #searchField {
+    width: 100;
+}
+
+BuilderView > #content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+BuilderView > #content > #treeContainer {
+    flex-direction: column;
+    background-color: #464547;
+    width: 150;
+}
+
+BuilderView > #content > #scrollView {
+    flex-grow: 1;
+    background-color: #464547;
+}
+
+BuilderView > #content > #scrollView > #scrollContent {
+    margin: 5;
+    width: 522;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7697244919118343618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5914ce2d2711470c997d783f2febd8ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: a1
+  transfers: []
+  position: {x: 552, y: 448}
+  clip: {fileID: 7400000, guid: 13caa80bbe9b34403bda844d1694d394, type: 3}
+  mask: {fileID: 31900000, guid: 2f944da0ebfe26a4aa655a7c1802620d, type: 2}
+  weight: 1
+--- !u!114 &-2169129032842350072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4636e2126740388c663b99c88de3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: s1
+  transfers: []
+  position: {x: 733, y: 202}
+  clip: {fileID: 7400000, guid: fdc39e3202ebc4d4a8a473fd95fcff55, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2cb25425b143959b9e2115bbcb6d60, type: 3}
+  m_Name: Animator Data 1
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 6998471343008257180}
+  - {fileID: -2169129032842350072}
+  - {fileID: -7697244919118343618}
+  enterState: {fileID: 6998471343008257180}
+  parameters: []
+--- !u!114 &4563879277498097593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b18d6722abbf4e91964199ede7f94316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  from: {fileID: 6998471343008257180}
+  to: {fileID: -2169129032842350072}
+  conditions: []
+  tweenDuration: 0
+  hasExitTime: 0
+--- !u!114 &6998471343008257180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4636e2126740388c663b99c88de3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: Default
+  transfers:
+  - {fileID: 4563879277498097593}
+  position: {x: 448, y: 191}
+  clip: {fileID: 7400002, guid: 080945c46afd34f3ebc364c1696e6678, type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eccb65b0eb4e1bbd4a63cceaced5e1, type: 3}
+  m_Name: BuildPlayerSettings
+  m_EditorClassIdentifier: 
+  preCommands:
+  - {fileID: 11400000, guid: bf0f6056e62c83a4892c4f0b2d0a7955, type: 2}
+  postSettings:
+  - {fileID: 11400000, guid: 0ab075a4f9833cf45a930da9899ec9db, type: 2}

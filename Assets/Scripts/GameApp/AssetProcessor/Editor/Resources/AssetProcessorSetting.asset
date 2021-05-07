@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edaf97257fe84da6a5314c899bb1f154, type: 3}
+  m_Name: AssetProcessorSetting
+  m_EditorClassIdentifier: 
+  gameObjectProcessors:
+  - paths:
+    - Resources/Prefab
+    gameObjectProcessors:
+    - checkerIds:
+      - "\u540C\u6B65Lod1 Prefab"
+    componentProcessors:
+    - type: UnityEngine.Playables.PlayableDirector
+      path: 
+      checkerIds:
+      - "Animation\u8F68\u9053\u68C0\u67E5"
+      - "Animator\u8F68\u9053\u68C0\u67E5"
+      - "Control\u8F68\u9053\u68C0\u67E5"
