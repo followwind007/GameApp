@@ -54,6 +54,11 @@ namespace GameApp.DataBinder
             this.CallLua("OnDisable");
         }
 
+        private void Update()
+        {
+            this.CallLuaCheck("Update");
+        }
+
         private void OnDestroy()
         {
             this.CallLua("OnDestroy");

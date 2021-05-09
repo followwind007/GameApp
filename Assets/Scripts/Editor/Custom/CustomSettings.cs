@@ -119,6 +119,7 @@ public static class CustomSettings
         _GT(typeof(Texture2D)),
         _GT(typeof(Shader)),        
         _GT(typeof(Renderer)),
+        _GT(typeof(Debug)),
         
         _GT(typeof(Screen)),        
         _GT(typeof(CameraClearFlags)),
@@ -204,7 +205,7 @@ public static class CustomSettings
         //Common
         _GT(typeof(AnimationCurve)),
         //LogicGraph
-        _GT(typeof(LogicGraphInstance)),
+        _GT(typeof(LogicGraphInstance)).AddExtendType(typeof(BindableTargetImpl)),
         _GT(typeof(LogicGraphObject)),
         _GT(typeof(LogicGraphObject.GraphType)),
         _GT(typeof(GraphProperty)),

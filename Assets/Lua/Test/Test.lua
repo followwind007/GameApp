@@ -1,8 +1,5 @@
 
----@field public test GameApp.DataBinder.ValueWrap
----@field public v4 GameApp.DataBinder.ValueWrap
----@field public str GameApp.DataBinder.ValueWrap
----@field public color GameApp.DataBinder.ValueWrap
+---@field public text UnityEngine.UI.Text
 ---@class Test
 local Test = DefineClass()
 
@@ -12,6 +9,10 @@ end
 
 function Test:Awake()
     print("in Awake")
+end
+
+function Test:Update()
+    self.text.text = UnityEngine.Time.time
 end
 
 function Test:OnDestroy()

@@ -11,6 +11,21 @@ namespace GameApp.LogicGraph
         private const string EventNodeEnter = "GRAPH_NODE_ENTER";
         private const string EventNodeExit = "GRAPH_NODE_EXIT";
         private const string EventGraphPlay = "GRAPH_PLAY";
+
+        private static Texture2D _selectedTex;
+
+        private static Texture2D SelectedTex
+        {
+            get
+            {
+                if (_selectedTex == null)
+                {
+                    _selectedTex = Resources.Load<Texture2D>("LogicGraph/bg_title_green");
+                }
+
+                return _selectedTex;
+            }
+        }
         
         public void RegisterDebug()
         {
@@ -49,7 +64,9 @@ namespace GameApp.LogicGraph
                 
                 if (n.NodeEditor.nodeGuid == nodeId)
                 {
-                    n.titleContainer.style.backgroundImage = Resources.Load<Texture2D>("LogicGraph/bg_title_green");
+                    if (n.titleContainer.style.backgroundImage == SelectedTex) return;
+                    
+                    n.titleContainer.style.backgroundImage = SelectedTex;
                     if (n.NodeEditor.NodeName == LogicGraphSettings.Instance.stateGraph.nodeState)
                     {
                         var en = GraphView.nodes.ToList();

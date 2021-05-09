@@ -56,6 +56,11 @@ namespace GameApp.LogicGraph
             this.CallLua("Start");
         }
 
+        private void Update()
+        {
+            this.CallLuaCheck("Update");
+        }
+
         private void OnEnable()
         {
             this.CallLua("OnEnable");

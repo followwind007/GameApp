@@ -1,20 +1,25 @@
-local LogicGraph_Logic = require('App.LogicGraph.Nodes.Logic')
-local LogicGraph_Util_Log = require('App.LogicGraph.Nodes.Util.Log')
+local LogicGraph_Property = require('app.LogicGraph.Nodes.Property')
 
 local Flow0 = DefineClass(BaseLogicGraph)
 
-Flow0.graphId = 'Flow0'
-Flow0.timers = {}
+function Flow0:Ctor()
+	self.graphId = 'Flow0'
+	self.timers = {}
+	self.coroutines = {}
 
-function Flow0:Start()
-	GraphDebug.Enter("LogicGraph.Logic.For_1")
-	LogicGraph_Logic.For(function(param1) self:Callback_1_1(param1) end, self.LogicGraph_Logic_For_1_startValue, self.LogicGraph_Logic_For_1_endValue, self.LogicGraph_Logic_For_1_step)
 end
 
-function Flow0:Callback_1_1(param1)
-	GraphDebug.Enter("LogicGraph.Callback.Callback_1_1")
-	GraphDebug.Enter("LogicGraph.Util.Log.Print_1")
-	LogicGraph_Util_Log.Print(param1)
+function Flow0:Start()
+	GraphDebug.Enter("UnityEngine.GameObject.Find_1")
+	local UnityEngine_GameObject_Find_1_return_1 = UnityEngine.GameObject.Find(self.UnityEngine_GameObject_Find_1_name)
+	GraphDebug.Enter("LogicGraph.Property.Get_1")
+	local LogicGraph_Property_Get_1_return_1 = LogicGraph_Property.Get(UnityEngine_GameObject_Find_1_return_1, self.LogicGraph_Property_Get_1_field)
+	self.cubeTransform = LogicGraph_Property_Get_1_return_1
+end
+
+function Flow0:Update()
+	GraphDebug.Enter("UnityEngine.Transform.Rotate_1")
+	UnityEngine.Transform.Rotate(self.cubeTransform, self.UnityEngine_Transform_Rotate_1_eulers, self.UnityEngine_Transform_Rotate_1_relativeTo)
 end
 
 return Flow0

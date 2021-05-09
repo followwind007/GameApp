@@ -9,7 +9,7 @@ namespace Tools.ResCheck
     {
         private void OnPreprocessModel()
         {
-            if (!ModelImportSetting.Instance.autoImport)
+            if (ModelImportSetting.Instance == null || !ModelImportSetting.Instance.autoImport)
             {
                 return;
             }
@@ -21,7 +21,7 @@ namespace Tools.ResCheck
 
         private void OnPostprocessModel(GameObject g)
         {
-            if (!ModelImportSetting.Instance.autoImport)
+            if (ModelImportSetting.Instance == null ||!ModelImportSetting.Instance.autoImport)
             {
                 return;
             }

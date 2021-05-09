@@ -3,10 +3,10 @@ LogicPropertyNodeView {
 }
 
 LogicPropertyNodeView > #portInputContainer {
-    position-type: absolute;
+    position: absolute;
     width: 412px;
-    position-left: -400;
-    position-top: 46;
+    left: -400px;
+    top: 46px;
 }
 
 #leafContainer {

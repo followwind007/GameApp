@@ -19,71 +19,100 @@ MonoBehaviour:
   lastCloseScale: {x: 1, y: 1, z: 1}
   logicGraphData:
     serializedNodes:
-    - type: LogicGraph.TestClass.Test1
+    - type: LogicGraph.Event.Start
       count: 1
-      json: '{"path":"Assets/Lua/app/LogicGraph/Custom/TestClass.lua","classId":"LogicGraph.TestClass","functionId":"Test1(number,
-        Vector2, Vector3, Vector4, Color, Rect)","nodeGuid":"LogicGraph.TestClass.Test1_1","position":{"x":546,"y":132},"expanded":true,"hideLeaf":false}'
-    serializedEdges: []
+      json: '{"path":"Assets/Lua/app/LogicGraph/Nodes/Event.lua","classId":"LogicGraph.Event","functionId":"Start()","nodeGuid":"LogicGraph.Event.Start_1","position":{"x":389,"y":186},"expanded":true,"hideLeaf":false}'
+    - type: UnityEngine.GameObject.Find
+      count: 1
+      json: '{"path":"Tools/EmmyLuaApi/UnityEngine.GameObject.lua","classId":"UnityEngine.GameObject","functionId":"Find(string)","nodeGuid":"UnityEngine.GameObject.Find_1","position":{"x":677,"y":201},"expanded":true,"hideLeaf":false}'
+    - type: UnityEngine.Transform.Rotate
+      count: 1
+      json: '{"path":"Tools/EmmyLuaApi/UnityEngine.Transform.lua","classId":"UnityEngine.Transform","functionId":"Rotate(Vector3,
+        number)","nodeGuid":"UnityEngine.Transform.Rotate_1","position":{"x":736,"y":484},"expanded":true,"hideLeaf":false}'
+    - type: LogicGraph.Variable.Elua
+      count: 2
+      json: '{"path":"Variable.lua","classId":"LogicGraph.Variable","functionId":"Elua(Elua)","nodeGuid":"LogicGraph.Variable.Elua_2","position":{"x":471,"y":620},"expanded":true,"hideLeaf":false,"propertyName":"cubeTransform"}'
+    - type: LogicGraph.Property.Get
+      count: 1
+      json: '{"path":"Assets/Lua/app/LogicGraph/Nodes/Property.lua","classId":"LogicGraph.Property","functionId":"Get(Elua,
+        string)","nodeGuid":"LogicGraph.Property.Get_1","position":{"x":938,"y":241},"expanded":true,"hideLeaf":false}'
+    - type: LogicGraph.Variable.Elua
+      count: 3
+      json: '{"path":"Variable.lua","classId":"LogicGraph.Variable","functionId":"Elua(Elua)","nodeGuid":"LogicGraph.Variable.Elua_3","position":{"x":1134,"y":322},"expanded":true,"hideLeaf":false,"propertyName":"cubeTransform"}'
+    - type: LogicGraph.Event.Update
+      count: 1
+      json: '{"path":"Assets/Lua/app/LogicGraph/Nodes/Event.lua","classId":"LogicGraph.Event","functionId":"Update()","nodeGuid":"LogicGraph.Event.Update_1","position":{"x":437,"y":444},"expanded":true,"hideLeaf":false}'
+    serializedEdges:
+    - sGuid: LogicGraph.Event.Start_1
+      sPort: out
+      tGuid: UnityEngine.GameObject.Find_1
+      tPort: in
+    - sGuid: LogicGraph.Event.Update_1
+      sPort: out
+      tGuid: UnityEngine.Transform.Rotate_1
+      tPort: in
+    - sGuid: LogicGraph.Variable.Elua_2
+      sPort: return_1
+      tGuid: UnityEngine.Transform.Rotate_1
+      tPort: self
+    - sGuid: UnityEngine.GameObject.Find_1
+      sPort: out
+      tGuid: LogicGraph.Property.Get_1
+      tPort: in
+    - sGuid: UnityEngine.GameObject.Find_1
+      sPort: return_1
+      tGuid: LogicGraph.Property.Get_1
+      tPort: target
+    - sGuid: LogicGraph.Property.Get_1
+      sPort: return_1
+      tGuid: LogicGraph.Variable.Elua_3
+      tPort: value
+    serializedGroups: []
   binds:
     ints: 
     floats:
-    - 0
-    - 0
-    - 0
-    - 0
+    - 1
     strings:
-    - 
-    vector2:
-    - {x: 0, y: 0}
+    - Cube
+    - nil
+    - cubeTransform
+    - transform
+    - cubeTransform
+    vector2: []
     vector3:
-    - {x: 0, y: 0, z: 0}
-    vector4:
-    - {x: 0, y: 0, z: 0, w: 0}
-    rects:
-    - serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
+    - {x: 0, y: 1, z: 0}
+    vector4: []
+    rects: []
     bounds: []
-    colors:
-    - {r: 0, g: 0, b: 0, a: 0}
+    colors: []
     curves: []
     bools: 
-    objects:
-    - {fileID: 0}
+    objects: []
     wraps:
-    - type: 1
-      name: LogicGraph_Logic_For_1_startValue
+    - type: 2
+      name: UnityEngine_GameObject_Find_1_name
+      index: 0
+    - type: 2
+      name: cubeTransform
+      index: 1
+    - type: 4
+      name: UnityEngine_Transform_Rotate_1_eulers
       index: 0
     - type: 1
-      name: LogicGraph_Logic_For_1_endValue
-      index: 1
-    - type: 1
-      name: LogicGraph_Logic_For_1_step
+      name: UnityEngine_Transform_Rotate_1_relativeTo
+      index: 0
+    - type: 2
+      name: LogicGraph_Variable_Elua_2_name
       index: 2
     - type: 2
-      name: LogicGraph_Logic_For_1_callback
-      index: 0
-    - type: 11
-      name: BehaviorDesigner_Runtime_BehaviorManager_Tick_1_self
-      index: 0
-    - type: 1
-      name: LogicGraph_TestClass_Test1_1_a
+      name: LogicGraph_Property_Get_1_field
       index: 3
-    - type: 3
-      name: LogicGraph_TestClass_Test1_1_b
-      index: 0
-    - type: 4
-      name: LogicGraph_TestClass_Test1_1_c
-      index: 0
-    - type: 5
-      name: LogicGraph_TestClass_Test1_1_d
-      index: 0
-    - type: 8
-      name: LogicGraph_TestClass_Test1_1_e
-      index: 0
-    - type: 6
-      name: LogicGraph_TestClass_Test1_1_f
-      index: 0
-  properties: []
+    - type: 2
+      name: LogicGraph_Variable_Elua_3_name
+      index: 4
+  properties:
+  - name: cubeTransform
+    type: Elua
+    isListen: 0
+    isTrigger: 0
+    scope: 0

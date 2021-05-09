@@ -161,6 +161,7 @@ public static class ToLuaExport
         "QualitySettings.streamingMipmapsMaxLevelReduction",
         "QualitySettings.streamingMipmapsRenderersPerFrame",
         "RenderTexture.MarkRestoreExpected",
+        "Debug.ExtractStackTraceNoAlloc",
         //NGUI
         "UIInput.ProcessEvent",
         "UIWidget.showHandlesWithMoveTool",

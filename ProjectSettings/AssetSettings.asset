@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f9ceb820e9481da46896263f038bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useAssetBundle: 1
+  useAssetBundle: 0
   useVirtualBundle: 0
   autoStartPlayer: 0

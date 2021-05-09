@@ -14,233 +14,233 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assets:
   - name: Assets/Art/UI/Prefab/Card.prefab
-    hash: 4e1a8ada63012c7ff70919e8702b3c99
+    hash: ae88443ba19f916030f41eff22c96029
   - name: Assets/Art/UI/Prefab/Card1.prefab
-    hash: 0d71569ded93011cf4392330ca7edd4a
+    hash: 0a743be3044f5b705c794303ba9ba191
   - name: Assets/Art/UI/Prefab/Card2.prefab
-    hash: 790525426daa5cc714f2a8b886cf1eb0
+    hash: 4a86de4408aa9fb0953b10d2d975a595
   - name: Assets/Art/UI/Prefab/Card4.prefab
-    hash: 0afdf3e0799208161aa47f92cad6fd04
+    hash: 2cc1de5cdb63a3c2a8a5c3036376874d
   - name: Assets/Art/UI/Icon/FaceMid/J-1-3.jpg
-    hash: 6a472c744cad7f9460101c9a9be3a3fd
+    hash: 7ce0084f8fa5f049cac44559f2560aa0
   - name: Assets/Art/UI/Icon/FaceMid/J-1-4.jpg
-    hash: cf416592bdf37ce0e303254a19aa9296
+    hash: 9904e01e9c76e80179984c3c07442f38
   - name: Assets/Art/UI/Icon/FaceMid/J-1-5.jpg
-    hash: 5cf3df54b7ad691ce23dd2294cb46f16
+    hash: 37b4cc4c7ad379218affcb6f031b49fa
   - name: Assets/Art/UI/Icon/FaceMid/J-1-6.jpg
-    hash: d98c41c1b24a42e81f1a42c9035ece4f
+    hash: 453530bbd2f5daaf2e6f383c3bf97bba
   - name: Assets/Art/UI/Icon/FaceMid/J-1-7.jpg
-    hash: 348f5f2aa5da75136ef033416d48a5f6
+    hash: 40e3d3afbca39aff443e28b7940daabf
   - name: Assets/Art/UI/Icon/FaceMid/J-1-8.jpg
-    hash: df6a34779fb68127b9ec6a993c124f9d
+    hash: 633992e15939bbff788ebd4c0240df83
   - name: Assets/Art/UI/Icon/FaceMid/J-1-9.jpg
-    hash: 43316983e254b0dd66b439766aa74558
+    hash: 523ad5521a50d31b2933070ba15d7cbb
   - name: Assets/Art/UI/SpriteAtlas/Card.spriteatlas
-    hash: 2a8f0426e9a0b5f545df48d854d9102f
+    hash: 3bcad6960be31ade728baea886e5ea5e
   - name: Assets/Scenes/Build.unity
-    hash: 9976da73778474d33dbe1c81e38fb863
+    hash: eacc96bb817273de17c0bae921d69ee6
   - name: Assets/Scenes/SampleScene.unity
-    hash: 3db35d19bbe90c504ec327d0c082c5ea
+    hash: c478304d1c0a7901e8f1f5c3608cca95
   - name: Assets/Manifest.asset
     hash: eb967a11551ef3e215d6c6631f408dfb
   - name: Assets/Art/UI/Atlas/Card/battle_card_fight_background.png
-    hash: 054edcac743ce7bcf7281daf6db02ee8
+    hash: eaa62b2a8a51dcdccf5e69b7fb92473d
   - name: Assets/Art/UI/Atlas/Card/battle_star_s.png
-    hash: 213a45146525fb25f8040f2e35adfded
+    hash: 98b1af6bfe502ba9a6a938b02ad81b43
   - name: Assets/Art/UI/Atlas/Card/card_icon_attack.png
-    hash: 243e66c94d103afb8bef1c38d0bce3a1
+    hash: 3bfaf69c63ae519ce26a6a497de93ab5
   - name: Assets/Art/UI/Atlas/Card/card_icon_shield.png
-    hash: 2e15cf8af5ad411bb5d5089f5b04f35e
+    hash: 503ca495c85f0175b1d116588dbf4a32
   - name: Assets/Art/UI/Atlas/Card/card_star_1.png
-    hash: 4bfe4d7a2903e334e95f69275b3e4f1b
+    hash: ee93b6b0d0b151a3a1b29fd56ab69be5
   - name: Assets/Art/UI/Atlas/Card/card_star_2.png
-    hash: 5f4735c88c71e92c952584eecb5f2450
+    hash: 9d2630ec4728c00c2e8c3059636ff7b4
   - name: Assets/Art/UI/Atlas/Card/card_star_3.png
-    hash: c4bf1cc7a5ef51125d5852376cb8df93
+    hash: d138e7757d5cb60a8612231b49123633
   - name: Assets/Art/UI/Atlas/Card/card_star_4.png
-    hash: 0f992335f343c7008e5209b6f4b4dc29
+    hash: 44425560b30f1801694b2a478e53585f
   - name: Assets/Art/UI/Atlas/Card/card_star_5.png
-    hash: d017b16eecdfd5597bc1678d865a4a1c
+    hash: 27168533b7e6a1c65dc77a238f94dd62
   - name: Assets/Art/UI/Atlas/Card/card_star_6.png
-    hash: 52d80702e50dfcacdbcfcdcc3033457e
+    hash: 0c2bb51099265756fd0b34d6c9d9bab4
   - name: Assets/Art/UI/Atlas/Card/card_type_icon_1.png
-    hash: 038457038d993a0ec96852f825bbdeb0
+    hash: 93e8d7657a955a68fe9addcfc81207dc
   - name: Assets/Art/UI/Atlas/Card/card_type_icon_2.png
-    hash: 073d2e44bbfb632b42a7c94edca0abcc
+    hash: bb215069c4850e7f783870d5f055c1e2
   - name: Assets/Art/UI/Atlas/Card/card_type_icon_3.png
-    hash: 8e388f65518e869413dd39f89c19ad7c
+    hash: 1640a57ccaf466638706fb1144ccd5f2
   - name: Assets/Art/UI/Atlas/Card/card_type_icon_4.png
-    hash: b66e8a40e730407e81591da01649824a
+    hash: 4d0ecd37bacd534e804ae1b8f607923f
   - name: Assets/Art/UI/Atlas/Card/card_type_icon_5.png
-    hash: c794e4bc31a08e3795045a23a95f0103
+    hash: e090e8717352ee6d3747b8f31d027df8
   - name: Assets/Art/UI/Atlas/Card/f_0.png
-    hash: e10cb5e9687cc0076d8376437e63c1b9
+    hash: f7de0ebdc5af7e71bf18f23d70df3a3f
   - name: Assets/Art/UI/Atlas/Card/f_0_dec.png
-    hash: 9876b329f26b84c2f9d174ad2e721a2b
+    hash: a09bc4f55e16d2ae56b8f72e54841e23
   - name: Assets/Art/UI/Atlas/Card/f_0_dec_line1.png
-    hash: 5ee078fd560f6dd69b36ecfd22de7699
+    hash: b87159a01f959181cd9ab8e374713354
   - name: Assets/Art/UI/Atlas/Card/f_0_dec_line2.png
-    hash: 05b9281fa6b0f3dd24150ed8959fbbf1
+    hash: 81186c8062c93f9f455adf76220fa54e
   - name: Assets/Art/UI/Atlas/Card/f_0_dec_linebg.png
-    hash: 870fab1ae24f23de51c90ad6edb03bc6
+    hash: 183be2c21f80388fec2a696ba8dc4e8e
   - name: Assets/Art/UI/Atlas/Card/f_0_h.png
-    hash: 545bacd48c9135e9de8e2aa1a83dd51d
+    hash: e952597d826abbf8ea36eb1d76fc48ab
   - name: Assets/Art/UI/Atlas/Card/f_0_q.png
-    hash: 7f540e1ad455673215e2fa1b3cbd7f39
+    hash: a66d7550e0b6c7510530293f4f7097c2
   - name: Assets/Art/UI/Atlas/Card/f_0_s.png
-    hash: 81c277d0bfbc1af4c6f9c02c6a337a81
+    hash: cd46fea0baaa959acfe6c2855551a592
   - name: Assets/Art/UI/Atlas/Card/f_2.png
-    hash: 4822baf66aaa2588b38c746a6c82ecc3
+    hash: 46f911fe906e707b6adccfeaa4c53488
   - name: Assets/Art/UI/Atlas/Card/f_2_s.png
-    hash: 39f4dfe20a8dca9b371e543d23afc7ec
+    hash: a48fc2a15433a4dc608f2a106a3b8309
   - name: Assets/Art/UI/Atlas/Card/f_3.png
-    hash: 7df11664de15255ee28facea5750d65c
+    hash: 258b6e0b0a8c3cb4bb6798a5d0b7c996
   - name: Assets/Art/UI/Atlas/Card/ill_partner_cardframe.png
-    hash: d8a44292b04b9332b0b01e877738b878
+    hash: d49f9236a6fd69ca64933368d7006e2a
   - name: Assets/Art/UI/Atlas/Card/k_4_1.png
-    hash: db0d0a75dcb719f440f8406475c1a61d
+    hash: 36bf7ecc82b7a20aa9f44391c877dd3c
   - name: Assets/Art/UI/Atlas/Card/k_4_1_1.png
-    hash: 15b212a6a062f396dca56323735df7f2
+    hash: f74a6e131b44e50fcb8d4e4e3d7030c5
   - name: Assets/Art/UI/Atlas/Card/k_4_1_1_t.png
-    hash: 3e60740002179902544f02be32f59e2e
+    hash: 5134aeeb926c270fd49d534a1fd0bd9e
   - name: Assets/Art/UI/Atlas/Card/k_4_1_e.png
-    hash: 517212632159fc1622976e9dd70ce987
+    hash: c2b6689935faae6e0d65f720d62903b6
   - name: Assets/Art/UI/Atlas/Card/k_4_1_e_1.png
-    hash: ec3e17012ff6a3ea4546f43508b1c085
+    hash: d89462d759a36e7b7fd7cafa727926ee
   - name: Assets/Art/UI/Atlas/Card/k_4_1_t.png
-    hash: 329b38aef0947e932a796fae70fe4c00
+    hash: a220a8a8691499015984296b5b4e08df
   - name: Assets/Art/UI/Atlas/Card/k_4_2.png
-    hash: d1a20e133512222ae4ae045ebfadad49
+    hash: 833df7e27785871869be0391705d4d61
   - name: Assets/Art/UI/Atlas/Card/k_4_2_1.png
-    hash: aa3561bdc60843d920536f9d878100ab
+    hash: 50ac9e096811e8ad0dd371df65684c9e
   - name: Assets/Art/UI/Atlas/Card/k_4_2_1_t.png
-    hash: dc64d74fe001cbffa8db60ab3bfb9529
+    hash: 4c84dd4591d174426d2183717bf70d2f
   - name: Assets/Art/UI/Atlas/Card/k_4_2_d.png
-    hash: 0b94e11bb85da1d2c35724419546a0ff
+    hash: faffd62d12ffc82807ae55ca164fccb6
   - name: Assets/Art/UI/Atlas/Card/k_4_2_e.png
-    hash: dd70c693cec42ed64141b4757a242e8c
+    hash: 1aee03a80bdcebec2c7d077b77e51854
   - name: Assets/Art/UI/Atlas/Card/k_4_2_e_1.png
-    hash: 7035a9fd16be2186e012a9e7b27c374d
+    hash: d1234ddaf407fd4eb870123f53b2963b
   - name: Assets/Art/UI/Atlas/Card/k_4_2_t.png
-    hash: b822a815dba38b0ee1175a9ba87a7ca7
+    hash: 5c74702d6c9d3a6ef2070323c00736fd
   - name: Assets/Art/UI/Atlas/Card/k_4_3.png
-    hash: 96950570d15db113588c951b3036d68c
+    hash: 0b27e3b7b13ed4441ad6f3333fcad54e
   - name: Assets/Art/UI/Atlas/Card/k_4_3_1.png
-    hash: 8c04835f888e5ff91f6a10e392703442
+    hash: 9438a396ecc40a0bbab2ab9acf9d462b
   - name: Assets/Art/UI/Atlas/Card/k_4_3_1_t.png
-    hash: ffdac869f7965a1f52f7a7f55c3e8592
+    hash: 2d06c7e73b28267aa40c5829c69f207f
   - name: Assets/Art/UI/Atlas/Card/k_4_3_d.png
-    hash: 79af4a5e8564c36059ff08a3ee2a4d1a
+    hash: ecc31d799286f9473f5005849999cd92
   - name: Assets/Art/UI/Atlas/Card/k_4_3_e.png
-    hash: 04105abe36c7ff3e9c0a945b8b76c25e
+    hash: d0223e8210675ff167e09b0a4f1cf355
   - name: Assets/Art/UI/Atlas/Card/k_4_3_e_1.png
-    hash: a6775d71d87b695793c451972e01a123
+    hash: 6eadd7c44f1a4194289ff7f99abd1b3d
   - name: Assets/Art/UI/Atlas/Card/k_4_3_t.png
-    hash: a9c96f6d05ad7d39fd7e0b76b045410e
+    hash: 1c5a8d207c26a8dea636c94fe47c0022
   - name: Assets/Art/UI/Atlas/Card/k_4_4.png
-    hash: 264887765d279e2e8f0f9be435c8288b
+    hash: d09cf9703d3cc8fafda85abbe244b8ae
   - name: Assets/Art/UI/Atlas/Card/k_4_4_1.png
-    hash: 5ed977d59028d74b480a5b5c351eccca
+    hash: c2378f8ad6256069c085f15b9f35937c
   - name: Assets/Art/UI/Atlas/Card/k_4_4_1_t.png
-    hash: 8cd7fad3d7e005373e88a31849363efa
+    hash: a8f21c02b5ee1e1f6019c9c25cfb6418
   - name: Assets/Art/UI/Atlas/Card/k_4_4_d.png
-    hash: 6280e90213115b051de43435171e6998
+    hash: b58e5e37ee3dc1937ca51c5900fb0243
   - name: Assets/Art/UI/Atlas/Card/k_4_4_e.png
-    hash: d7f8875f299506234cd24b7f3a6ce7a4
+    hash: f8e7def9cc7fde786e8177b30e2f73e8
   - name: Assets/Art/UI/Atlas/Card/k_4_4_e_1.png
-    hash: c4f7407ac4b4adba53dd29041d96ae22
+    hash: e4c3e64fd9e005e38322462ea60a9dff
   - name: Assets/Art/UI/Atlas/Card/k_4_4_t.png
-    hash: c4267e92fd6cfe70cc17bed197e7321d
+    hash: df3f95d501240e59eddb24f3267ebdf6
   - name: Assets/Art/UI/Atlas/Card/k_4_5.png
-    hash: 5944d857f2a462b31680d45b53e2290f
+    hash: 6045978b3e2b365da58f611fccbd435e
   - name: Assets/Art/UI/Atlas/Card/k_4_5_1.png
-    hash: 5135fcbd29d54e2f820f815871540052
+    hash: 841c3cb1485e4ca7a34a39fe1345f08c
   - name: Assets/Art/UI/Atlas/Card/k_4_5_1_t.png
-    hash: 32cd581d4b104b290aa372d48da36df7
+    hash: 56ef94170f386220ea75a831b7357668
   - name: Assets/Art/UI/Atlas/Card/k_4_5_d.png
-    hash: db9989d41e33df5eb4ecce23f1117dea
+    hash: a8f36a1072c6b059a178f90545443582
   - name: Assets/Art/UI/Atlas/Card/k_4_5_e.png
-    hash: 8a552b357cedaad6ce3a15b47484ffb3
+    hash: fa21bf1e0c75616d8b843eb74dd319a5
   - name: Assets/Art/UI/Atlas/Card/k_4_5_e_1.png
-    hash: 59e2704a9ada6420171e3ac6b4b093fe
+    hash: 2baaf02bc301ff37f738c6562e77a335
   - name: Assets/Art/UI/Atlas/Card/k_4_5_t.png
-    hash: 4baaa402eab3b168957057801c10c590
+    hash: fb9913ac9c1a669e4a00132484fd21c4
   - name: Assets/Art/UI/Atlas/Card/k_4_dec_1.png
-    hash: 60e64704773e7b36bcdb69af4416f656
+    hash: 89808c6ac72ada73cc055f4ad83432da
   - name: Assets/Art/UI/Atlas/Card/k_4_dec_2.png
-    hash: b4243466360d507fe0cc5f56dce3f3b5
+    hash: 11b0494967d9aa0fc6ffc11d71674683
   - name: Assets/Art/UI/Atlas/Card/n_1.png
-    hash: 1fbde03314804f3385198ab7a0bc9da9
+    hash: 1ef2480a5d13d0340467b65dcf183aee
   - name: Assets/Art/UI/Atlas/Card/n_2.png
-    hash: 1bddf4289e13d1caf14d2bb6d57a0965
+    hash: 7308601aafd2e7112468e212661ebbb2
   - name: Assets/Art/UI/Atlas/Card/n_3.png
-    hash: c9deab3dffef247866cdc05d2933b266
+    hash: 760719d7d83f518e794cb324992d0122
   - name: Assets/Art/UI/Atlas/Card/n_4.png
-    hash: 01d5c5c78db256dfcaaf131a2fb03d30
+    hash: 2def873b73bd0357066073f28f706440
   - name: Assets/Art/UI/Atlas/Card/P_4_1.png
-    hash: 64a063c1457f51c3f52976b10776a38c
+    hash: 3ecbd9195e346a62128a3750f134e3c0
   - name: Assets/Art/UI/Atlas/Card/P_4_2.png
-    hash: b8b5051e0f02840ee34f33f96ff62dec
+    hash: f87e731bd5eec31db637e32b10e8607c
   - name: Assets/Art/UI/Atlas/Card/P_4_3.png
-    hash: 49abc27edd1ea6210e472ba352457977
+    hash: 394b987907899c2c7a4952a417cd9a29
   - name: Assets/Art/UI/Atlas/Card/P_4_4.png
-    hash: e1a46c585c79138a1987da0425215063
+    hash: c709564abb2789392cf0d8fbd4ca5d20
   - name: Assets/Art/UI/Atlas/Card/q_0_3_1.png
-    hash: 2eb15cea88cf6a872b399b32f1a8a6d8
+    hash: 2d6f1aa97342b89637d7d073b8b2fa0d
   - name: Assets/Art/UI/Atlas/Card/q_0_3_2.png
-    hash: d2812f79a5f81893ae1dc79d08a1af8a
+    hash: f71fd1d4ceb8a3980bea663d14978854
   - name: Assets/Art/UI/Atlas/Card/q_0_3_3.png
-    hash: 5658ec719ac41ae24f54db88d7204a03
+    hash: 1e7bd19250022a0d8d38f093e745c226
   - name: Assets/Art/UI/Atlas/Card/q_0_3_4.png
-    hash: dbaee1d1810e84c1730e2782fcb6ca1e
+    hash: 327cf64f9f5c467b977a21ead31e0d40
   - name: Assets/Art/UI/Atlas/Card/q_0_3_4_h.png
-    hash: 38175f087b4abc537cb325829259427e
+    hash: 9c11424ff7510e5c2bdbe07a65018d62
   - name: Assets/Art/UI/Atlas/Card/q_2_2_4.png
-    hash: bf1313fc5d9d051264bea4a397fa9581
+    hash: 9bbdf2d625d757eb20be7608484a2053
   - name: Assets/Art/UI/Atlas/Card/x_5_1.png
-    hash: 85d784449a3475a2d159f576dfecf9b3
+    hash: fd4f3f87f5e96e332eb2ff5ba8ae4c68
   - name: Assets/Art/UI/Atlas/Card/x_5_2.png
-    hash: 2b41b7e175601629cb6572fc46f17a60
+    hash: e2348471dca9f2e3c60cbf46ed6a0559
   - name: Assets/Art/UI/Atlas/Card/x_5_3.png
-    hash: a82c77e786bcbf5d69c1295ce3448b0f
+    hash: 52c69a0990a49066a6cd79f3a3997dc9
   - name: Assets/Art/UI/Atlas/Card/x_5_7.png
-    hash: ed82a0d85c40653ecdfaf857b4ce48db
+    hash: 4c74b8be58d233ad8e0af781492c6d22
   - name: Assets/Art/UI/Atlas/Card/x_5_8.png
-    hash: d13ca959169bf8d92f7db968b0f62b9b
+    hash: 887b60546aef09332381440625d993da
   - name: Assets/Art/UI/Atlas/Card/x_5_12.png
-    hash: 67a5bb100c8ea06f8105a582c191ddbd
+    hash: b6c5ba02d37521909ccde4d321234a96
   - name: Assets/Art/UI/Atlas/Card/x_5_13.png
-    hash: c758381512a14ab36a27e06bf485047c
+    hash: 66694c0bdac0efe2ccac7b9f16175847
   - name: Assets/Art/UI/Atlas/Card/x_5_14.png
-    hash: d8ed3baf30b27d469f18c852b108c038
+    hash: e9002e0fa3cfc3aa2e39f6bda83fdcd3
   - name: Assets/Art/UI/Atlas/Card/x_5_15.png
-    hash: f07cccd55a40fedb81981c20291c895f
+    hash: 1496d52ba04bfbc6563a013287be53eb
   - name: Assets/Art/UI/Atlas/Card/x_5_25.png
-    hash: 773d2fecf9b4f2a7bdadc5ad58bed7ac
+    hash: a28498fd6cb97d8e214a4c6af6fb0a20
   - name: Assets/Art/UI/Atlas/Card/x_5_26.png
-    hash: 229bf30a11da5fb5195c4e6aeb4bd512
+    hash: 83ee68fb44b465dfad0d6f9a2e4afc0c
   - name: Assets/Art/UI/Atlas/Card/x_5_27.png
-    hash: 7334f2115271201c4641220c21c193b4
+    hash: a841e3a74c329127bffba997fa54d7e9
   - name: Assets/Art/UI/Atlas/Card/x_5_28.png
-    hash: 61f256d08b2f8bdb7cf5a573a8f40525
+    hash: ed90e545e69859ee04b0511211402c13
   - name: Assets/Art/UI/Atlas/Card/x_5_29.png
-    hash: 21e0cf4b2e8bd8e65328be51bdee0c41
+    hash: bbaef645a96b9874bcbe4d4e9b6e94a9
   - name: Assets/Art/UI/Atlas/Card/x_5_30.png
-    hash: e3f6dee75454cace6d9a4ba42d7499da
+    hash: 760b2f4932a4666453b6e978da848a94
   - name: Assets/Art/UI/Atlas/Card/x_5_31.png
-    hash: 705e81071752e1ffef41a3a9492340a4
+    hash: 3978b449580d5823fc62e895ca0a0c4a
   - name: Assets/Art/UI/Atlas/Card/x_5_32.png
-    hash: 3e834f812d634dab6b9cca7475d60ad8
+    hash: ee60204c179d9de1b3d3419014c1fb81
   - name: Assets/Art/Font/all.ttf
-    hash: b54db6eb514cb7cfaeb1ec8b2c86a89d
+    hash: 0e85228ca2f8e2b4cd3e34d0ade6c9a0
   - name: Assets/Art/Font/all_SDF.asset
-    hash: 6c1f591eda7d53a9a8e84239c713ae88
+    hash: 15906cfb2ae0c787a5a5dd3723a75ce5
   - name: Assets/Art/UI/Atlas/TMP Settings.asset
     hash: 00000000000000000000000000000000
   - name: Assets/Art/Resources/TMP Settings.asset
     hash: a5bc61e07b310ee129ba5332ece62b6d
   - name: Assets/Art/Editor/Resources/TMP Settings.asset
-    hash: a5bc61e07b310ee129ba5332ece62b6d
+    hash: df21803eb64c16071b0883a7c3090f89
   - name: Assets/Lua/App
     hash: 7c66f9a3075665c2c99ed8c3923b5dec
   - name: Assets/Lua/App/Adapter.lua
@@ -422,9 +422,9 @@ MonoBehaviour:
   - name: Assets/Lua/Util
     hash: 4dccc49ab7c298d50b1a9e385f9f8818
   - name: Assets/Art/Animation/meidui_show.anim
-    hash: 229d2fbcaf8e533ee66e19cbdb5ccc3a
+    hash: 547d69a7075dec9bffd2e98b19acbe89
   - name: Assets/Art/Animation/meidui_show_cmp.anim
-    hash: ff27398e3f60e9d84881919c46f64a23
+    hash: 1a10a7d750831ec30780f55bad26dbed
   - name: Assets/Art/UI/Prefab
     hash: 9a45fd22ac66e2d064fda8e756373ddf
   - name: Assets/Art/UI/Icon
@@ -441,53 +441,53 @@ MonoBehaviour:
     hash: d77291ecbd4ccfa91071d9dfef011db9
   bundles:
   - name: assets/art/ui/prefab/card
-    version: 0
-  - name: assets/art/ui/prefab/card1
-    version: 0
-  - name: assets/art/ui/prefab/card2
-    version: 6
-  - name: assets/art/ui/prefab/card4
-    version: 0
-  - name: assets/art/ui/icon/facemid/j-1-3
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-4
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-5
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-6
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-7
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-8
-    version: 8
-  - name: assets/art/ui/icon/facemid/j-1-9
-    version: 8
-  - name: assets/art/ui/spriteatlas/card
     version: 1
-  - name: assets/scenes/build
+  - name: assets/art/ui/prefab/card1
+    version: 1
+  - name: assets/art/ui/prefab/card2
     version: 7
-  - name: assets/scenes/samplescene
+  - name: assets/art/ui/prefab/card4
+    version: 1
+  - name: assets/art/ui/icon/facemid/j-1-3
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-4
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-5
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-6
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-7
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-8
+    version: 9
+  - name: assets/art/ui/icon/facemid/j-1-9
+    version: 9
+  - name: assets/art/ui/spriteatlas/card
     version: 2
+  - name: assets/scenes/build
+    version: 8
+  - name: assets/scenes/samplescene
+    version: 3
   - name: assets/manifest
     version: 0
   - name: assets/art/ui/atlas/card
-    version: 8
+    version: 9
   - name: assets/art/font/all
-    version: 6
+    version: 7
   - name: assets/art/font/all_sdf
-    version: 3
+    version: 4
   - name: assets/art/ui/atlas/tmp settings
     version: 0
   - name: assets/art/resources/tmp settings
     version: 0
   - name: assets/art/editor/resources/tmp settings
-    version: 0
+    version: 1
   - name: assets/lua
     version: 0
   - name: assets/art/animation/meidui_show
-    version: 3
+    version: 4
   - name: assets/art/animation/meidui_show_cmp
-    version: 2
+    version: 3
   - name: assets/art/ui/prefab
     version: 0
   - name: assets/art/ui/icon

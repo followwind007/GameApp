@@ -1,0 +1,9 @@
+/.idea
+/Library
+/Temp
+/Logs
+/obj
+/Projects
+/*.csproj
+/GameApp.sln
+/Tools/EmmyLuaApi
